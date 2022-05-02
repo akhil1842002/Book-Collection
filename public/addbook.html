@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name = "viewport" content = "width=device-width, minimum-scale=1.0, maximum-scale = 1.0, user-scalable = no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/68d0b9a83f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/addbook.css">
+    <title>Add Book</title>
+</head>
+<body>
+    <div class="common">
+        <header>
+            <div class="logo">
+                <i class="fa-solid fa-book-open"></i>
+                <p>Book Collection</p>
+            </div>
+
+            <div class="user-details">
+                <div>
+                    <a href="./dashboard.html"><p>Dashboard</p></a>
+                </div>
+                <div>
+                    <a href="./allbook.html"><p>All Book</p></a>
+                </div>
+                <div>
+                    <a href="/user/logout.html"><p>Logout</p></a>
+                </div>
+            </div>
+            <div class="menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+        
+        <div class="show-and-hide">
+            <!-- <div>
+                <a href="./dashboard.html"><p>Dashboard</p></a>
+            </div>
+            <div>
+                <a href="./allbook.html"><p>Logout</p></a>
+            </div> -->
+            <div>
+                <a href="./dashboard.html"><p>Dashboard</p></a>
+            </div>
+            <div>
+                <a href="./allbook.html"><p>All Book</p></a>
+            </div>
+            <div>
+                <a href="/user/logout.html"><p>Logout</p></a>
+            </div>
+        </div>
+
+        <!-- add book -->
+
+        <main class="edit">
+            <div class="photo-display">
+                <div>
+                    <img id="image" src="https://www.lifewire.com/thmb/2KYEaloqH6P4xz3c9Ot2GlPLuds=/1920x1080/smart/filters:no_upscale()/cloud-upload-a30f385a928e44e199a62210d578375a.jpg" alt="">
+                </div>
+                <div class="delete-btn">
+                    <button id="delete" type="button">Delete Image</button>
+                </div>
+            </div>
+            <form action="" method="" id="form">
+                <div class="form-items">
+                    <div class="left">
+                        <div>
+                            <label for="upload-file">Book Image:</label>
+                            <input type="file" accept="image/*" required name="" id="file">
+                            <div class="show-error-container">
+                                <p class="file-error"></p>
+                            </div>
+                        </div>
+        
+                        <div>
+                            <label for="book-title">Book Title:</label>
+                            <input class="common-input" type="text" name="" id="title">
+                            <div class="show-error-container">
+                                <p class="title-error"></p>
+                            </div>
+                        </div>
+        
+                        <div>
+                            <label for="author">Author:</label>
+                            <input class="common-input" type="text" name="" id="author">
+                            <div class="show-error-container">
+                                <p class="author-error"></p>
+                            </div>
+                        </div>
+        
+                        <div>
+                            <label for="description">Description:</label>
+                            <textarea name="" id="des" id="" cols="30" rows="10"></textarea>
+                            <div class="show-error-container">
+                                <p class="description-error"></p>
+                            </div>
+                        </div>
+                    </div>
+                  
+                    <div class="right">
+                        <div>
+                            <label for="publication">Publication Year:</label>
+                            <input class="common-input" type="text" name="" id="year">
+                            <div class="show-error-container">
+                                <p class="year-error"></p>
+                            </div>
+                        </div>
+        
+                        <div>
+                            <label for="pages">Number of Pages:</label>
+                            <input class="common-input" type="text" id="page">
+                            <div class="show-error-container">
+                                <p class="page-error"></p>
+                            </div>
+                        </div>
+        
+                        <div>
+                            <label for="review">Your Review:</label>
+                            <input class="common-input" type="text" id="review">
+                            <div class="show-error-container">
+                                <p class="review-error"></p>
+                            </div>
+                        </div>
+                        
+        
+                        <div>
+                            <label for="link">Book Download Link:</label>
+                            <input class="common-input" placeholder="optional" type="text" name="" id="link">
+                            <div class="show-error-container">
+                                <p class="link-error"></p>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+                
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </main>
+
+        <!-- finish add book -->
+
+        <footer>
+            <div class="footer-items">
+                <div>
+                    <p>Full Stack Developer</p>
+                </div>
+
+                <div class="para">
+                    <p>There are many types of footer sections, some just basic information, and some social icons. In
+                        some cases, there are links, posts, images, and information.</p>
+                </div>
+
+                <div class="follow">
+                    <div>
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./js/addbook.js"></script>
+</body>
+</html>

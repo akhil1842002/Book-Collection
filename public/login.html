@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "viewport" content = "width=device-width, minimum-scale=1.0, maximum-scale = 1.0, user-scalable = no">
+    <script src="https://kit.fontawesome.com/68d0b9a83f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="common">
+        <header>
+            <a href="./allbook.html">
+                <div class="logo">
+                    <i class="fa-solid fa-book-open"></i>
+                    <p>Book Collection</p>
+                </div>
+            </a>
+
+            <div class="user-details">
+                <div>
+                    <a href="./join.html"><p>Join</p></a>
+                </div>
+            </div>
+
+            <div class="menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+
+        <div class="show-and-hide">
+            <div>
+                <a href="./join.html"><p>Join</p></a>
+            </div>
+        </div>
+
+        <main>
+            <div class="register">
+                <div>
+                    <h1>Login</h1>
+                </div>
+                <form action="" id="login">
+                    <div>
+                        <div>
+                            <input type="text" placeholder="Email" id="email">
+                        </div>
+                        <div class="show-error-container">
+                            <p class="email-error"></p>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div>
+                            <input type="password" placeholder="Password" id="password">
+                        </div>
+                        <div class="show-error-container">
+                            <p class="password-error"></p>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <button type="submit">Login</button>
+                    </div>
+                </form>
+                <div>
+                    <p class="to-login">Not Have An Account? <a href="./join.html">Signup</a> </p>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="./js/login.js"></script>
+ </body>
+</html>

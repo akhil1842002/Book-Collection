@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Festive&family=IBM+Plex+Sans+Thai+Looped:wght@100&family=Kanit:wght@200&family=Karla:wght@300&family=Lato:wght@300;400;700&family=Montserrat:wght@200&family=Nunito:wght@200;300&family=Patrick+Hand&family=Quicksand&family=Raleway:wght@300&family=Roboto:wght@300&family=Rowdies:wght@300&family=Rubik:wght@300;400&family=Shippori+Antique+B1&family=Source+Sans+Pro:wght@300&family=Zen+Kaku+Gothic+Antique&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Patrick Hand', cursive;
+}
+.common{
+    max-width: 1500px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+/* header */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    padding: 20px 20px;
+    background-color: aqua;
+}
+header > a{
+    color: black;
+}
+input{
+    font-size: 25px;
+    padding-left: 5px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.user-details{
+    display: flex;
+    gap: 30px;
+}
+.user-details a{
+    color: black;
+}
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 40px;
+    /* background-color: whitesmoke; */
+    background-color: aqua;
+    padding-bottom: 20px;
+}
+.follow{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.footer-items{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.para{
+    font-size: 30px;
+    text-align: center;
+}
+.search-bar{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+form{
+    display: flex;
+}
+.title{
+    text-align: center;
+    padding: 30px;
+}
+.search-bar input{
+    width: 330px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.search-bar button{
+    height: 40px;
+    width: 80px;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.book-collection-container{
+    min-height: 50vh;
+}
+.book-collections{
+    display: flex;
+    gap: 50px;
+    padding: 0px 0 50px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.book{
+    max-height: 400px;
+}
+section{
+    max-height: 380px;
+    width: 300px;
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    font-size: 18px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+.img img{
+    width: 200px;
+    height: 230px;
+    padding-bottom: 20px;
+}
+.book-detail{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+}
+.book-title{
+    color: #eb34e5;
+    font-size: 23px;
+    height: 60px;
+}
+.author-name{
+    color: black;
+}
+.book-uploaded-status{
+    color: #eb34e5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 50px;
+}
+
+a:hover{
+    transition-duration: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+@media (max-width: 680px){
+    .search-bar input{
+        width: 280px;
+    }
+    .header{
+        font-size: 10px;
+        background-color: #eb34e5;
+    }
+    .show-and-hide{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        font-size: 30px;
+        align-items: center;
+        background-color: #f1f7f2;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        position: absolute;
+        width: 100vw;
+    }
+    .para{
+        font-size: 20px;
+        padding: 0 10px;
+    }
+    .show-and-hide a{
+        color: black;
+    }
+
+}
+

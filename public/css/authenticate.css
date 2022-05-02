@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Festive&family=IBM+Plex+Sans+Thai+Looped:wght@100&family=Kanit:wght@200&family=Karla:wght@300&family=Lato:wght@300;400;700&family=Montserrat:wght@200&family=Nunito:wght@200;300&family=Patrick+Hand&family=Quicksand&family=Raleway:wght@300&family=Roboto:wght@300&family=Rowdies:wght@300&family=Rubik:wght@300;400&family=Shippori+Antique+B1&family=Source+Sans+Pro:wght@300&family=Zen+Kaku+Gothic+Antique&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Patrick Hand', cursive;
+}
+a{
+  color: black;
+}
+.common{
+    max-width: 1500px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 30px;
+  padding: 20px 20px;
+  background-color: aqua;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.status-container{
+  height: 300px;
+  width: 600px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+h1{
+  color: green;
+  font-size: 45px;
+}
+button{
+  width: 90px;
+  height: 35px;
+  border: none;
+  background-color: yellow;
+  color: black;
+  font-size: 20px;
+  border-radius: 5px;
+}
+@media (max-width: 680px){
+  
+  .status-container{
+    height: 300px;
+    width: 370px;
+  }
+
+  h1{
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Festive&family=IBM+Plex+Sans+Thai+Looped:wght@100&family=Kanit:wght@200&family=Karla:wght@300&family=Lato:wght@300;400;700&family=Montserrat:wght@200&family=Nunito:wght@200;300&family=Patrick+Hand&family=Quicksand&family=Raleway:wght@300&family=Roboto:wght@300&family=Rowdies:wght@300&family=Rubik:wght@300;400&family=Shippori+Antique+B1&family=Source+Sans+Pro:wght@300&family=Zen+Kaku+Gothic+Antique&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Patrick Hand', cursive;
+}
+.common{
+    max-width: 1500px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+/* header */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    padding: 20px 20px;
+    background-color: aqua;
+}
+header > a{
+    color: black;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.user-details{
+    display: flex;
+    gap: 30px;
+}
+.user-details a{
+    color: black;
+}
+input{
+    font-size: 20px;
+    padding-left: 5px;
+}
+.show-error-container{
+    height: 10px;
+}
+.name-error{
+    font-size: 15px;
+    text-align: center;
+}
+.email-error{
+    font-size: 15px;
+    text-align: center;
+}
+.password-error{
+    font-size: 15px;
+    text-align: center;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 40px;
+    /* background-color: whitesmoke; */
+    background-color: aqua;
+    padding-bottom: 20px;
+}
+.follow{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.footer-items{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.para{
+    font-size: 30px;
+    text-align: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    justify-content: center;
+    gap: 30px;
+    font-size: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}
+.join-logo{
+    display: flex;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+input{
+    width: 300px;
+    height: 40px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+button{
+    width: 300px;
+    height: 40px;
+    font-size: 25px;
+    border: none;
+}
+button:hover{
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    transition-duration: 0.3s;
+}
+.to-login{
+    font-size: 20px;
+}
+::placeholder{
+    font-size: 20px;
+    text-align: center;
+}
+
+@media (max-width: 680px){
+    .show-and-hide{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        font-size: 30px;
+        align-items: center;
+        background-color: #f1f7f2;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        position: absolute;
+        width: 100vw;
+    }
+    .show-and-hide a{
+        color: black;
+    }
+    .register{
+        width: 360px;
+    }
+}
